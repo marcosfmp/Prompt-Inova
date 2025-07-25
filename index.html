@@ -2,32 +2,24 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prompt+Inova</title>
   <style>
     body {
-      margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      background-color: #f5faff;
       color: #333;
     }
     header {
-      background-color: #007BFF;
+      background-color: #007bff;
       color: white;
+      padding: 30px 20px;
       text-align: center;
-      padding: 40px 20px;
     }
     header h1 {
       margin: 0;
-      font-size: 36px;
-    }
-    header p {
-      margin-top: 10px;
-      font-size: 18px;
-    }
-    nav {
-      text-align: center;
-      margin: 30px 0;
     }
     section {
       padding: 40px 20px;
@@ -35,84 +27,85 @@
       margin: auto;
     }
     h2 {
-      color: #007BFF;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 10px;
-    }
-    ul {
-      line-height: 1.8;
-    }
-    footer {
-      text-align: center;
-      background-color: #007BFF;
-      color: white;
-      padding: 20px;
-      margin-top: 40px;
+      color: #007bff;
     }
     .button {
-      background-color: #28a745;
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
       color: white;
-      padding: 12px 24px;
       text-decoration: none;
       border-radius: 5px;
-      font-size: 16px;
-      display: inline-block;
       margin-top: 20px;
     }
-    form {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
+    .prompt-box {
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
     }
-    input, textarea {
+    form input {
       padding: 10px;
-      font-size: 16px;
+      margin: 10px 0;
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      border-radius: 5px;
+      border: 1px solid #ccc;
     }
-    input[type="submit"] {
-      background-color: #007BFF;
-      color: white;
-      border: none;
-      cursor: pointer;
+    footer {
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-
   <header>
     <h1>Prompt+Inova</h1>
     <p>IA prática para empreendedores</p>
-    <a href="#conteudo" class="button">Comece agora</a>
+    <a href="#conteudos" class="button">Comece agora</a>
   </header>
 
-  <section id="conteudo">
+  <section id="conteudos">
     <h2>Exemplos de Prompts</h2>
-    <ul>
-      <li><strong>Marketing:</strong> "Crie 5 ideias de post para Instagram sobre meu produto de beleza natural."</li>
-      <li><strong>Planejamento:</strong> "Organize um cronograma semanal para um pequeno negócio de doces caseiros."</li>
-      <li><strong>Organização:</strong> "Sugira ferramentas de produtividade para quem trabalha sozinho."</li>
-      <li><strong>Criação de Produto:</strong> "Gere ideias de novos serviços para uma barbearia criativa."</li>
-      <li><strong>Atendimento:</strong> "Crie respostas educadas e rápidas para clientes que reclamaram de atraso."</li>
-    </ul>
+    <div class="prompt-box">
+      <strong>📈 Marketing:</strong><br>
+      "Crie um calendário de postagens para Instagram focado em uma loja de roupas femininas para o mês de setembro."
+    </div>
+    <div class="prompt-box">
+      <strong>🧠 Inovação:</strong><br>
+      "Sugira 5 ideias de produtos digitais baseados em inteligência artificial voltados para professores independentes."
+    </div>
+    <div class="prompt-box">
+      <strong>📋 Organização:</strong><br>
+      "Crie um plano de tarefas semanais para um pequeno negócio de delivery de doces artesanais."
+    </div>
+    <div class="prompt-box">
+      <strong>📦 Criação de Produto:</strong><br>
+      "Me ajude a montar a descrição e os benefícios de um novo curso online sobre finanças pessoais."
+    </div>
   </section>
 
-  <section id="sobre">
+  <section>
     <h2>Sobre o Projeto</h2>
-    <p>Prompt+Inova é uma iniciativa educacional e gratuita que ajuda empreendedores brasileiros a usarem inteligência artificial (como o ChatGPT) de forma prática. Aqui você aprende a criar e adaptar prompts para melhorar suas ideias, negócios e produtividade — sem precisar ser um especialista em tecnologia.</p>
+    <p>O Prompt+Inova é uma iniciativa educacional gratuita criada para ajudar pequenos empreendedores a usarem a inteligência artificial de forma prática e eficiente. Com exemplos simples, diretos e aplicáveis no dia a dia, mostramos como os prompts certos podem economizar tempo, melhorar decisões e aumentar a inovação nos negócios.</p>
   </section>
 
-  <section id="contato">
-    <h2>Receba mais materiais</h2>
-    <form action="#" method="POST">
+  <section>
+    <h2>Contato</h2>
+    <p>Quer receber mais materiais e novidades?</p>
+    <form>
       <input type="text" placeholder="Seu nome" required>
       <input type="email" placeholder="Seu e-mail" required>
-      <textarea placeholder="Diga o que você gostaria de aprender com IA" rows="4"></textarea>
-      <input type="submit" value="Enviar">
+      <button type="submit" class="button">Quero receber</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 Prompt+Inova • Feito com IA e propósito 💡</p>
+    &copy; 2025 Prompt+Inova. Todos os direitos reservados.
   </footer>
-
 </body>
 </html>
