@@ -23,5 +23,7 @@ Este projeto visa capacitar pequenos empreendedores no uso de *prompts* de intel
 - CSS3
 - Google Forms
 
-## 📁 Estrutura do projeto
+## 👥 Autoria
+
+Projeto desenvolvido por [Marcos]. 
 
