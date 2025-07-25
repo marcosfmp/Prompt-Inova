@@ -13,8 +13,6 @@ Este projeto visa capacitar pequenos empreendedores no uso de *prompts* de intel
 - Estrutura fácil de adaptar e publicar
 
 ## 🌐 Acesse agora
-
-🔗 [Clique aqui para ver o site em funcionamento](https://SEULINK.COM)  
 📩 [Formulário de contato](https://docs.google.com/forms/d/e/1FAIpQLSeU7qwR2xjz7HeQ3e0jLeV8dn0O3eBX0PpHzYnmfxHZBEnqwQ/viewform?usp=header)
 
 ## 🛠 Tecnologias
